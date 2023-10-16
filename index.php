@@ -1,8 +1,5 @@
-<?php
-    // entete 
-    require_once('partials/entete.php'); 
+<?php require_once("partials/header.php"); 
 
+require_once("controllers/homeController.php");
 
-    //  pied de page 
-    require_once('partials/pied.php'); 
-?>
+require_once("partials/pied.php"); ?>
